@@ -11,8 +11,8 @@ public class Main {
         for(int i=2;i<10;i++){
             n[i]=(n[i-2]+n[i-1])%10;
         }
-        for(int i=0; i<10; i++)[
+        for(int i=0; i<10; i++){
             System.out.print(n[i]+" ");
-        ]
+        }
     }
 }

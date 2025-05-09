@@ -6,8 +6,8 @@ public class Main {
         int a,n;
         a=sc.nextInt();
         n=sc.nextInt();
-        for(int i=1; i<=n; i++)
+        for(int i=1; i<=n; i++){
             System.out.println((a+n));
-            a=a+n;
+            a=a+n;}
     }
 }

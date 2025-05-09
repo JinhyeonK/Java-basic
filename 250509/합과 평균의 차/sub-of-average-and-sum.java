@@ -9,6 +9,6 @@ public class Main {
         c=sc.nextInt();
         int t=a+b+c;
         int avg=t/3;
-        System.out.printf("%d/n%d/n%d",t,avg,(t-avg));
+        System.out.printf("%d\n%d\n%d",t,avg,(t-avg));
     }
 }

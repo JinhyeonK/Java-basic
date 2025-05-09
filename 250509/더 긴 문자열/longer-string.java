@@ -8,9 +8,9 @@ public class Main {
         int len1= a.length();
         int len2= b.length();
         if(len1 > len2)
-            System.out.print(str1 + " " + len1);
+            System.out.print(a + " " + len1);
         else if(len1 < len2)
-            System.out.print(str2 + " " + len2);
+            System.out.print(b + " " + len2);
         else
             System.out.print("same");        
 

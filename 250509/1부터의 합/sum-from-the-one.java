@@ -7,7 +7,7 @@ public class Main {
         int n= sc.nextInt();
         for(int i=1;i<=100;i++){
             cnt+=i;
-            if (cn>=n){
+            if (cnt>=n){
                 System.out.print(i);
                 break;
              }

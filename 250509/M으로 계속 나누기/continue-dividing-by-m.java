@@ -7,10 +7,11 @@ public class Main {
         int M = sc.nextInt();
         
         // Please write your code here.
-        System.out.println(N);
         while (N>0){
-            System.out.println(N/M);
-            N=N/M;
+            
+            System.out.println(N);
+            N/=M;
+            
         }
     }
 }

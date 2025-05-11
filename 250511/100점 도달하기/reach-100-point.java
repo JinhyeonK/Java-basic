@@ -4,19 +4,15 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=0;n<=100;i++){
-            if (n>=90) {
+        for(int i=n; i<=100;i++){
+            if (i>=90) {
                 System.out.print("A ");
-                n+=i;
-            } else if (n>=80) {
+            } else if (i>=80) {
                 System.out.print("B ");
-                n+=i;
-            } else if (n>=70) {
+            } else if (i>=70) {
                 System.out.print("C ");
-                n+=i;
-            } else if (n>=60) {
+            } else if (i>=60) {
                 System.out.print("D ");
-                n+=i;
             } else {
                 System.out.print("F ");
                 n+=i;
